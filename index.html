@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inventions</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navb">
+      <a href="scientist.html"><div class="logo">Scientist's</div></a>
+      <div class="nav-links">
+        <ul>
+          <li><img src="images/linkedin.png" alt="" /></li>
+          <li><img src="images/facebook.png" alt="" /></li>
+          <li><img src="images/instagram-logo.png" alt="" /></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="sectionone" class="screen">
+      <div id="scene">
+        <div data-depth="0.1" class="bg">
+          <img src="images/background.png" alt="" />
+        </div>
+        <div data-depth="0.2" class="rock1">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <!-- <div data-depth="1.5" class="text">
+          <img src="images/india.png" alt="" />
+
+        </div> -->
+        <div data-depth="1.2" class="earth">
+          <img src="images/earth.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="text">
+          <h1>Inventions</h1>
+        </div>
+        <div data-depth="0.4" class="mid">
+          <img src="images/mid.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="fore">
+          <img src="images/foreground.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="center">
+      <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Homi_J._Bhabha">
+        <div class="property-image"
+        style="  background-image:url('https://i.pinimg.com/474x/9d/a7/f9/9da7f924a4cc28e7aa103b75cfb0eb4f.jpg');">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>1947</h7></b>
+         
+          <h5>Homi J. Bhabha</h5>
+          <p>Indian physicist Homi J. Bhabha proposed a theory of cosmic rays known as the Bhabha scattering.
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+
+       <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Satyendra_Nath_Bose">
+        <div class="property-image" style="  background-image:url('data:image/jpeg;base64,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');
+          ">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>1950</h7></b>
+         
+          <h5>Satyendra Nath Bose</h5>
+          <p>Indian physicist Satyendra Nath Bose developed the mathematical theory of Bose-Einstein condensation.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+       <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Vikram_Sarabhai">
+        <div class="property-image" style="  background-image:url('https://th.bing.com/th/id/OIP.4Ns6sYuWIocTpBOg0_6fCQHaEP?pid=ImgDet&rs=1   ');">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>1956</h7></b>
+         
+          <h5>Vikram Sarabhai</h5>
+          <p>Indian astrophysicist Vikram Sarabhai proposed the satellite communication concept.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+      <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Har_Gobind_Khorana">
+          <div class="property-image" style="  background-image:url('https://static01.nyt.com/images/2011/11/14/us/khorana-obit/khorana-obit-jumbo.jpg?quality=90&auto=webp   ');">
+            <div class="property-image-title">
+              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+          </div></a>
+        <div class="property-description">
+          <b> <h7>1962</h7></b>
+
+          <h5>Har Gobind Khorana</h5>
+          <p>Indian biochemist Har Gobind Khorana discovered the genetic code.
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div> <div class="property-card">
+        <a href="#">
+          <div class="property-image" style="  background-image:url('https://i0.wp.com/shasthrasnehi.com/wp-content/uploads/2020/10/Subrahmanyan-Chandrashekhar.jpg?fit=1200%2C628&ssl=1');">
+            <div class="property-image-title">
+              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+          </div></a>
+        <div class="property-description">
+          <b> <h7>1974</h7></b>
+
+          <h5>Subrahmanyan Chandrasekhar</h5>
+          <p>Indian physicist Subrahmanyan Chandrasekhar formulated the Chandrasekhar limit.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+    </div>
+     <div class="center">
+      <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Jayant_Narlikar#:~:text=Jayant%20Vishnu%20Narlikar%20(born%2019,known%20as%20Hoyle%E2%80%93Narlikar%20theory.">
+        <div class="property-image" style="  background-image:url('https://s3.youthkiawaaz.com/wp-content/uploads/2016/02/06052850/narlikar-big-bang-3.jpg');">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>1982</h7></b>
+         
+          <h5>Jayant Narlikar</h5>
+          <p>Indian scientist and astrophysicist Jayant Narlikar proposed the Quasi-Steady State Cosmology theory.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+      <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Gaurav_Khanna_(physicist)">
+          <div class="property-image" style="  background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gaurav_Khanna.jpg/220px-Gaurav_Khanna.jpg');">
+            <div class="property-image-title">
+              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+          </div></a>
+        <div class="property-description">
+          <b> <h7>2008</h7></b>
+
+          <h5>Gaurav Khanna</h5>
+          <p>Indian scientist Gaurav Khanna developed the first direct detection of gravitational wave.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>    
+
+       <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">
+        <div class="property-image" style="  background-image:url('data:image/jpeg;base64,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');">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>2015</h7></b>
+         
+          <h5>Dr A.P.J. Abdul Kalam</h5>
+          <p>Directed the project to develop ‘India’s first Satellite Launch Vehicle (SLV)’.
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+       <div class="property-card">
+        <a href="https://en.wikipedia.org/wiki/Abhay_Ashtekar#:~:text=As%20the%20creator%20of%20Ashtekar,are%20accessible%20to%20non%2Dphysicists.">
+        <div class="property-image" style="  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzzy_USlz1eQpLI2wbPJvUkPbDxJTJJVSFhN3n3Sklbldwil4ROxwawh8RR9EGlTPSXI&usqp=CAU');">
+          <div class="property-image-title">
+            <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+          </div>
+        </div></a>
+        <div class="property-description">
+          <b> <h7>2018</h7></b>
+         
+          <h5>Abhay Ashtekar</h5>
+          <p>Indian scientist Abhay Ashtekar developed a new mathematical framework for quantum gravity.
+
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div>
+      <div class="property-card">
+        <a href="https://everipedia.org/wiki/lang_en/raghu-murtugudde">
+          <div class="property-image" style="  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZG6vvPVkO1fDedu42y8L7F2e2Wrjn9ZUw9MfnqYW7Q&s');
+          ">
+            <div class="property-image-title">
+              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+          </div></a>
+        <div class="property-description">
+          <b> <h7>2022</h7></b>
+
+          <h5>Raghu Murtugudde</h5>
+          <p>Indian scientist Raghu Murtugudde is working on developing a new satellite system to monitor ocean health.
+          </p>
+        </div>
+        <!-- <a href="#">
+          <div class="property-social-icons">
+            I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          <!-- </div>
+        </a> -->
+      </div> 
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
