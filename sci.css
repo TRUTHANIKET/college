@@ -203,7 +203,6 @@ html {
 		0 0;
 	background-size: 
 		2500px,
-		800px,
 		500px 200px,
 		1000px,
 		400px 260px;
@@ -213,7 +212,6 @@ html {
 @keyframes para {
 	100% {
 		background-position: 
-    -6000px 20%,
 			-5000px 20%,
 			-800px 95%,
 			500px 50%,
